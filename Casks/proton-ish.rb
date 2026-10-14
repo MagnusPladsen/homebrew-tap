@@ -7,9 +7,10 @@ cask "proton-ish" do
   desc "Steam Play for the macOS Steam client with Highball's free Wine or CrossOver"
   homepage "https://github.com/MagnusPladsen/Proton-ish"
 
+  # GitHub's release list skips pre-releases; the app's own update feed does not
   livecheck do
-    url :url
-    strategy :github_releases
+    url "https://github.com/MagnusPladsen/Proton-ish/releases/download/update-feed/appcast.xml"
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
