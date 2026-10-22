@@ -1,6 +1,6 @@
 cask "proton-ish" do
-  version "1.0.7"
-  sha256 "9131d64055a14d7b2b40f1cc4616ec733166fd8ed474a967d62fabdba4efdb3e"
+  version "1.0.8"
+  sha256 "233b2606d0bf2e6643015e6708e75b759888648d32d446cfbe79ba1d68ec827f"
 
   url "https://github.com/MagnusPladsen/Proton-ish/releases/download/v#{version}/Proton-ish.zip"
   name "Proton-ish"
