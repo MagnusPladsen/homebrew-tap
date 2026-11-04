@@ -1,9 +1,9 @@
 cask "gamedev-studio" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.16-beta"
-  sha256 arm:   "e49e7e01f125632faf11696f12405fe5180212954771d577c3346b9e4a677e66",
-         intel: "3c6a01ec288b7606849533dcaf2fa76961511697f76ace388510547926eadf4c"
+  version "0.1.17-beta"
+  sha256 arm:   "88754677e87875bd05aea1eb163c46f8fff45d7906bd4f81ad6cc12e30eda4b8",
+         intel: "17f56a4a88a5dc6e0b9abf8aaff4193f17fa68bb47a4ed0496d4beccc11e4de3"
 
   url "https://github.com/MagnusPladsen/dev-studio/releases/download/v#{version}/GameDev-Studio-mac-#{arch}.dmg"
   name "GameDev Studio"
