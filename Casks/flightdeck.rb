@@ -1,6 +1,6 @@
 cask "flightdeck" do
-  version "1.0.4"
-  sha256 "954786042792466523712805954faadb745f9d31d824736b59ffcd7dbc6cc45d"
+  version "1.0.5"
+  sha256 "ffe1226d7156b8551152f94a7ba0a1ce29cbbc49d030122500a67ea89a0eb33c"
 
   url "https://github.com/MagnusPladsen/flightdeck/releases/download/v#{version}/Flightdeck.zip"
   name "Flightdeck"
