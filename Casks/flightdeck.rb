@@ -5,7 +5,7 @@ cask "flightdeck" do
   url "https://github.com/MagnusPladsen/flightdeck/releases/download/v#{version}/Flightdeck.zip"
   name "Flightdeck"
   desc "Agent and system monitor for developers, in the menu bar"
-  homepage "https://github.com/MagnusPladsen/flightdeck"
+  homepage "https://flightdeck.pladsen.dev"
 
   depends_on macos: :sonoma
 
