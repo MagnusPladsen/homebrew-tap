@@ -1,9 +1,9 @@
 cask "dev-studio" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.27-beta"
-  sha256 arm:   "a82ddd03f662bce05e60ad008b0720a32995dddcc17344de96d65b8aeabf2027",
-         intel: "0063bf2c2472cd9b52c1cf998f227c137af81e0a8015dd98d16befb14b3eacfb"
+  version "0.1.28-beta"
+  sha256 arm:   "99816575ece1282f4cd6fc5732bc5f3bb0e0cca95bcadc23e8ff61cbbc93a22a",
+         intel: "341ae07a0a8cf715021f90654e17db3967c5e956d1a564a412897b4c865c1b07"
 
   url "https://github.com/MagnusPladsen/dev-studio/releases/download/v#{version}/Dev-Studio-mac-#{arch}.dmg"
   name "Dev Studio"
